@@ -4,13 +4,13 @@ import { Facebook, Twitter, Linkedin, Mail } from "lucide-react"
 const teamMembers = [
   {
     id: 1,
-    name: "Dr. Jane Smith",
+    name: "Dr. Thyageshwar Chandran",
     role: "Faculty Advisor",
     image: "/placeholder.svg?height=300&width=300&text=JS",
   },
   {
     id: 2,
-    name: "John Doe",
+    name: "Smridhi Bhadra",
     role: "President",
     image: "/placeholder.svg?height=300&width=300&text=JD",
   },
