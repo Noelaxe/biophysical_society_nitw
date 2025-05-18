@@ -7,36 +7,42 @@ const teamMembers = [
     name: "Dr. Thyageshwar Chandran",
     role: "Faculty Advisor",
     image: "/placeholder.svg?height=300&width=300&text=JS",
+    text: "Faculty Advisor Text",
   },
   {
     id: 2,
     name: "Smridhi Bhadra",
     role: "President",
     image: "/placeholder.svg?height=300&width=300&text=JD",
+    text: "President Text",
   },
   {
     id: 3,
     name: "Emily Johnson",
     role: "Vice President",
     image: "/placeholder.svg?height=300&width=300&text=EJ",
+    text: "",
   },
   {
     id: 4,
     name: "Michael Brown",
     role: "Secretary",
     image: "/placeholder.svg?height=300&width=300&text=MB",
+    text: "",
   },
   {
     id: 5,
     name: "Sarah Wilson",
     role: "Treasurer",
     image: "/placeholder.svg?height=300&width=300&text=SW",
+    text: "",
   },
   {
     id: 6,
     name: "David Lee",
     role: "Event Coordinator",
     image: "/placeholder.svg?height=300&width=300&text=DL",
+    text: "",
   },
 ]
 
@@ -71,8 +77,7 @@ export default function Team() {
                   <p className="text-blue-700 mb-4">{member.role}</p>
 
                   <p className="text-gray-600 text-center mb-6">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.
+                    {member.text}
                   </p>
 
                   <div className="flex space-x-4">
