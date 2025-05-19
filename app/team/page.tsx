@@ -6,37 +6,37 @@ const teamMembers = [
     id: 1,
     name: "Dr. Thyageshwar Chandran",
     role: "Faculty Advisor",
-    image: "/placeholder.svg?height=300&width=300&text=JS",
+    image: "/images/members_photos/Thyageshwar_Chandran.jpeg",
+    text: "Assistant Professor at the Department of Biotechnology, NITW",
+    email: "mailto:thyagesh@nitw.ac.in",
   },
   {
     id: 2,
     name: "Smridhi Bhadra",
     role: "President",
-    image: "/placeholder.svg?height=300&width=300&text=JD",
+    image: "/images/members_photos/Smridhi_Bhadra.jpeg",
+    text: "3rd Year, Btech. Biotechnology, Department of Biotechnology, NITW",
   },
   {
     id: 3,
-    name: "Emily Johnson",
+    name: "Parnasri Ghosh",
     role: "Vice President",
-    image: "/placeholder.svg?height=300&width=300&text=EJ",
+    image: "/images/members_photos/Parnasri_Ghosh.jpeg",
+    text: "3rd Year, Btech. Biotechnology, Department of Biotechnology, NITW",
   },
   {
     id: 4,
-    name: "Michael Brown",
+    name: "Aman Inamdar",
     role: "Secretary",
-    image: "/placeholder.svg?height=300&width=300&text=MB",
+    image: "/images/members_photos/Anam_Imandar.jpeg",
+    text: "3rd Year, Btech. Biotechnology, Department of Biotechnology, NITW",
   },
   {
     id: 5,
-    name: "Sarah Wilson",
+    name: "Sanskriti Kadam",
     role: "Treasurer",
     image: "/placeholder.svg?height=300&width=300&text=SW",
-  },
-  {
-    id: 6,
-    name: "David Lee",
-    role: "Event Coordinator",
-    image: "/placeholder.svg?height=300&width=300&text=DL",
+    text: "3rd Year, Btech. Biotechnology, Department of Biotechnology, NITW",
   },
 ]
 
@@ -64,15 +64,14 @@ export default function Team() {
               >
                 <div className="p-8 flex flex-col items-center">
                   <div className="relative w-40 h-40 rounded-full overflow-hidden mb-6 border-4 border-blue-100">
-                    <Image src={member.image || "/placeholder.svg"} alt={member.name} fill className="object-cover" />
+                    <Image src={member.image} alt={member.name} fill className="object-cover" />
                   </div>
 
                   <h3 className="text-xl font-bold text-blue-950 mb-1">{member.name}</h3>
                   <p className="text-blue-700 mb-4">{member.role}</p>
 
                   <p className="text-gray-600 text-center mb-6">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.
+                    {member.text}
                   </p>
 
                   <div className="flex space-x-4">
@@ -88,7 +87,7 @@ export default function Team() {
                       <Linkedin size={20} />
                       <span className="sr-only">LinkedIn</span>
                     </a>
-                    <a href="#" className="text-gray-500 hover:text-blue-900 transition-colors">
+                    <a href={member.email} target="_blank" className="text-gray-500 hover:text-blue-900 transition-colors">
                       <Mail size={20} />
                       <span className="sr-only">Email</span>
                     </a>
