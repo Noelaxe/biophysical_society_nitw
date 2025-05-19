@@ -17,7 +17,11 @@ export default function About() {
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 text-center">About Us</h1>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto text-center">
-            Learn about the Biophysical Society Student Chapter at NITW and our mission to advance biophysical research.
+           Our chapter is a space where students explore the exciting overlap of physics and biology. We’re a group of passionate learners and thinkers, supported by the global Biophysical Society, who are driven by questions, ideas, and the desire to understand how life works at its deepest levels.
+          </p>
+          <br></br>
+          <p className="text-xl text-blue-100 max-w-3xl mx-auto text-center">
+           Whether you're already into research or just curious about what biophysics is, you’ll find like-minded people and meaningful opportunities here.
           </p>
         </div>
       </div>
@@ -33,18 +37,13 @@ export default function About() {
               <div className="space-y-4 text-gray-700">
                 <p>
                   The Biophysical Society Student Chapter at the National Institute of Technology, Warangal was
-                  established in [year] with the goal of promoting interdisciplinary research and education in
+                  established in 2025 with the goal of promoting interdisciplinary research and education in
                   biophysics.
                 </p>
                 <p>
                   Since its inception, the chapter has grown to include students from various departments, including
-                  Physics, Biology, Chemistry, and Engineering, all united by their interest in understanding biological
+                  Physics, Chemistry, and Engineering, all united by their interest in understanding biological
                   systems through the lens of physics.
-                </p>
-                <p>
-                  Over the years, we have organized numerous workshops, seminars, and conferences, bringing together
-                  students, researchers, and faculty from across the country to discuss the latest advancements in
-                  biophysical research.
                 </p>
                 <p>
                   Our chapter is affiliated with the Biophysical Society, the premier international organization for
@@ -70,7 +69,7 @@ export default function About() {
       <section className="py-16 md:py-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-blue-950 mb-4">Our Mission & Vision</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-blue-950 mb-4">Our Mission</h2>
             <div className="w-20 h-1 bg-blue-900 mx-auto"></div>
           </div>
 
@@ -78,29 +77,15 @@ export default function About() {
             <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
               <h3 className="text-2xl font-bold text-blue-950 mb-4">Mission</h3>
               <p className="text-gray-700 mb-4">
-                Our mission is to foster a vibrant community of students interested in biophysics, promote
-                interdisciplinary research, and provide opportunities for academic and professional growth.
+               We believe that big ideas happen when people from different backgrounds come together. That’s why our mission is to build a supportive and creative environment where students can learn from each other, grow as leaders, and contribute to something bigger than themselves.
               </p>
-              <ul className="list-disc list-inside space-y-2 text-gray-700">
-                <li>Promote biophysical research and education</li>
-                <li>Foster collaboration between students and faculty</li>
-                <li>Organize workshops, seminars, and conferences</li>
-                <li>Provide networking opportunities with researchers and industry professionals</li>
-              </ul>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <h3 className="text-2xl font-bold text-blue-950 mb-4">Vision</h3>
+              <h3 className="text-2xl font-bold text-blue-950 mb-4">What We Do</h3>
               <p className="text-gray-700 mb-4">
-                Our vision is to become a leading student chapter in biophysics, recognized for our contributions to
-                research, education, and outreach in the field.
+               From hosting inspiring talks and hands-on workshops to organizing fun outreach activities and networking events—we do it all! Our aim is to make biophysics accessible, exciting, and inclusive. No matter where you are on your journey—beginner or expert—you’re welcome here.
               </p>
-              <ul className="list-disc list-inside space-y-2 text-gray-700">
-                <li>Establish NITW as a center of excellence in biophysics</li>
-                <li>Develop innovative research projects that address real-world challenges</li>
-                <li>Create a supportive environment for students to explore their interests in biophysics</li>
-                <li>Build strong partnerships with other institutions and organizations</li>
-              </ul>
             </div>
           </div>
         </div>
