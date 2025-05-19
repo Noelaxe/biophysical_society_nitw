@@ -5,7 +5,7 @@ const teamMembers = [
   {
     id: 1,
     name: "Dr. Thyageshwar Chandran",
-    role: "Faculty Advisor",
+    role: "Chapter Sponsor",
     image: "/images/members_photos/Thyageshwar_Chandran.jpeg",
     text: "Assistant Professor at the Department of Biotechnology, NITW",
     email: "mailto:thyagesh@nitw.ac.in",
