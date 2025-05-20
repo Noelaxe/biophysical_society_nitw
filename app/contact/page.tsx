@@ -168,8 +168,16 @@ export default function Contact() {
               </div>
 
               {/* Map */}
-              <div className="rounded-xl overflow-hidden shadow-lg h-[300px] bg-gray-200 flex items-center justify-center">
-                <p className="text-gray-500">Map Placeholder - Google Maps will be integrated here</p>
+              <div className="rounded-xl overflow-hidden shadow-lg h-[300px]">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4669.447447405145!2d79.53099057591928!3d17.98559678529532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a334fd6708ccb43%3A0x311ea4d450551c27!2sDEPARTMENT%20OF%20CHEMICAL%20ENGINEERING%20AND%20BIOTECHNOLOGY%20NIT%20WARANGAL!5e1!3m2!1sen!2sin!4v1747719928199!5m2!1sen!2sin"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
               </div>
             </div>
           </div>

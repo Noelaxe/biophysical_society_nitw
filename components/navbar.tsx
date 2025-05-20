@@ -21,6 +21,9 @@ export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
   const pathname = usePathname()
 
+  // Only transparent on home at top
+  const useTransparent = pathname === "/" && !isScrolled;
+
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 10)
@@ -33,7 +36,9 @@ export default function Navbar() {
     <header
       className={cn(
         "fixed top-0 w-full z-50 transition-all duration-300",
-        isScrolled ? "bg-white/90 backdrop-blur-md shadow-sm" : "bg-transparent",
+        useTransparent
+          ? "bg-transparent"
+          : "bg-white/90 backdrop-blur-md shadow-sm",
       )}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -49,7 +54,14 @@ export default function Navbar() {
                   priority
                 />
               </div>
-              <span className="hidden md:block font-semibold text-blue-950">Biophysical Society</span>
+              <span
+                className={cn(
+                  "hidden md:block font-semibold",
+                  useTransparent ? "text-white" : "text-blue-950"
+                )}
+              >
+                Biophysical Society
+              </span>
             </Link>
           </div>
 
@@ -59,8 +71,14 @@ export default function Navbar() {
                 key={link.name}
                 href={link.href}
                 className={cn(
-                  "text-sm font-medium transition-colors hover:text-blue-800",
-                  pathname === link.href ? "text-blue-900 border-b-2 border-blue-900" : "text-gray-700",
+                  "text-sm font-medium transition-colors",
+                  useTransparent
+                    ? pathname === link.href
+                      ? "text-white border-b-2 border-white hover:text-white"
+                      : "text-white hover:text-white"
+                    : pathname === link.href
+                      ? "text-blue-900 border-b-2 border-blue-900 hover:text-blue-800"
+                      : "text-gray-700 hover:text-blue-800",
                 )}
               >
                 {link.name}
