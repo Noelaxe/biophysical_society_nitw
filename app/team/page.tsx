@@ -9,6 +9,7 @@ const teamMembers = [
     image: "/images/members_photos/Thyageshwar_Chandran.jpeg",
     text: "Assistant Professor at the Department of Biotechnology, NITW",
     email: "mailto:thyagesh@nitw.ac.in",
+    linkedin: "https://www.linkedin.com/in/thyageshwar/?originalSubdomain=in"
   },
   {
     id: 2,
@@ -17,6 +18,7 @@ const teamMembers = [
     image: "/images/members_photos/Smridhi_Bhadra.jpeg",
     text: "3rd Year, Btech. Biotechnology, Department of Biotechnology, NITW",
     email: "mailto:sb22btb0a04@student.nitw.ac.in",
+    linkedin: "https://www.linkedin.com/in/smridhi-bhadra-2020/"
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ const teamMembers = [
     image: "/images/members_photos/Parnasri_Ghosh.jpeg",
     text: "3rd Year, Btech. Biotechnology, Department of Biotechnology, NITW",
     email: "mailto:pg22btb0a39@student.nitw.ac.in",
+    linkedin: "https://www.linkedin.com/in/parnasri-ghosh-930810269/"
   },
   {
     id: 4,
@@ -33,6 +36,7 @@ const teamMembers = [
     image: "/images/members_photos/Anam_Imandar.jpeg",
     text: "3rd Year, Btech. Biotechnology, Department of Biotechnology, NITW",
     email: "mailto:aa22btb0a07@student.nitw.ac.in",
+    linkedin: "https://www.linkedin.com/in/aman-inamdar-6a94aa256/"
   },
   {
     id: 5,
@@ -41,6 +45,7 @@ const teamMembers = [
     image: "/images/members_photos/Sanskriti_Kadam.jpeg",
     text: "3rd Year, Btech. Biotechnology, Department of Biotechnology, NITW",
     email: "mailto:sa22btb0a05@student.nitw.ac.in",
+    linkedin: "https://www.linkedin.com/in/sanskriti-kadam-31620026a/"
   },
 ]
 
@@ -83,7 +88,7 @@ export default function Team() {
                       <Mail size={20} />
                       <span className="sr-only">Email</span>
                     </a>
-                    <a href="#" className="text-gray-500 hover:text-blue-900 transition-colors">
+                    <a href={member.linkedin || "#"} target="_blank" className="text-gray-500 hover:text-blue-900 transition-colors">
                       <Linkedin size={20} />
                       <span className="sr-only">LinkedIn</span>
                     </a>
