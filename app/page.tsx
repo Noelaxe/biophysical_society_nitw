@@ -8,14 +8,22 @@ export default function Home() {
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center">
-        <div
-          className="absolute inset-0 bg-cover bg-center z-0"
-          style={{
-            backgroundImage: "url('/placeholder.svg?height=1080&width=1920')",
-            backgroundBlendMode: "overlay",
-          }}
-        >
-          <div className="absolute inset-0 bg-blue-950/70"></div>
+        {/* Video Background */}
+        <div className="absolute inset-0 z-0">
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="absolute min-w-full min-h-full object-cover"
+            // poster="/placeholder.svg?height=1080&width=1920"
+          >
+            <source src="/video/DNA_Helix.mp4" type="video/mp4" />
+            {/* Fallback for browsers that don't support video */}
+            Your browser does not support the video tag.
+          </video>
+          {/* Overlay to ensure text readability */}
+          <div className="absolute inset-0 bg-blue-950/80"></div>
         </div>
 
         <div className="container mx-auto px-4 z-10 text-center">
