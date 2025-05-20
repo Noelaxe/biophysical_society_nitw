@@ -82,10 +82,6 @@ export default function Footer() {
                 <span className="text-gray-300">National Institute of Technology, Warangal, Telangana, India</span>
               </li>
               <li className="flex items-center">
-                <Phone className="mr-2 h-5 w-5 text-blue-300 flex-shrink-0" />
-                <span className="text-gray-300">+91 XXXXX XXXXX</span>
-              </li>
-              <li className="flex items-center">
                 <Mail className="mr-2 h-5 w-5 text-blue-300 flex-shrink-0" />
                 <span className="text-gray-300">biophysics@nitw.ac.in</span>
               </li>
