@@ -63,8 +63,7 @@ export default function Home() {
 
           <div className="max-w-4xl mx-auto">
             <p className="text-lg text-gray-700 mb-6 text-center">
-              Our mission is to foster a vibrant community of students interested in biophysics, promote
-              interdisciplinary research, and provide opportunities for academic and professional growth.
+             Our mission is to build a supportive and creative environment where students can learn from each other, grow as leaders, and contribute to something bigger than themselves.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
