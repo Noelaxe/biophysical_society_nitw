@@ -16,6 +16,7 @@ const teamMembers = [
     role: "President",
     image: "/images/members_photos/Smridhi_Bhadra.jpeg",
     text: "3rd Year, Btech. Biotechnology, Department of Biotechnology, NITW",
+    email: "mailto:sb22btb0a04@student.nitw.ac.in",
   },
   {
     id: 3,
@@ -23,6 +24,7 @@ const teamMembers = [
     role: "Vice President",
     image: "/images/members_photos/Parnasri_Ghosh.jpeg",
     text: "3rd Year, Btech. Biotechnology, Department of Biotechnology, NITW",
+    email: "mailto:pg22btb0a39@student.nitw.ac.in",
   },
   {
     id: 4,
@@ -30,13 +32,15 @@ const teamMembers = [
     role: "Secretary",
     image: "/images/members_photos/Anam_Imandar.jpeg",
     text: "3rd Year, Btech. Biotechnology, Department of Biotechnology, NITW",
+    email: "mailto:aa22btb0a07@student.nitw.ac.in",
   },
   {
     id: 5,
     name: "Sanskriti Kadam",
     role: "Treasurer",
-    image: "/placeholder.svg?height=300&width=300&text=SW",
+    image: "/images/members_photos/Sanskriti_Kadam.jpeg",
     text: "3rd Year, Btech. Biotechnology, Department of Biotechnology, NITW",
+    email: "mailto:sa22btb0a05@student.nitw.ac.in",
   },
 ]
 
@@ -74,22 +78,14 @@ export default function Team() {
                     {member.text}
                   </p>
 
-                  <div className="flex space-x-4">
-                    <a href="#" className="text-gray-500 hover:text-blue-900 transition-colors">
-                      <Facebook size={20} />
-                      <span className="sr-only">Facebook</span>
-                    </a>
-                    <a href="#" className="text-gray-500 hover:text-blue-900 transition-colors">
-                      <Twitter size={20} />
-                      <span className="sr-only">Twitter</span>
+                  <div className="flex space-x-2">
+                    <a href={member.email} target="_blank" className="text-gray-500 hover:text-blue-900 transition-colors">
+                      <Mail size={20} />
+                      <span className="sr-only">Email</span>
                     </a>
                     <a href="#" className="text-gray-500 hover:text-blue-900 transition-colors">
                       <Linkedin size={20} />
                       <span className="sr-only">LinkedIn</span>
-                    </a>
-                    <a href={member.email} target="_blank" className="text-gray-500 hover:text-blue-900 transition-colors">
-                      <Mail size={20} />
-                      <span className="sr-only">Email</span>
                     </a>
                   </div>
                 </div>

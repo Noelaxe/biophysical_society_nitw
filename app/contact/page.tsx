@@ -133,7 +133,7 @@ export default function Contact() {
                     <p className="text-gray-700">
                       Biophysical Society Student Chapter
                       <br />
-                      Department of Physics
+                      Department of Biotechnology
                       <br />
                       National Institute of Technology
                       <br />
