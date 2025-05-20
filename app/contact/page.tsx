@@ -154,17 +154,6 @@ export default function Contact() {
                     <p className="text-gray-700">president.biophysics@nitw.ac.in</p>
                   </div>
                 </div>
-
-                <div className="flex items-start">
-                  <div className="bg-blue-100 p-3 rounded-full mr-4">
-                    <Phone className="h-6 w-6 text-blue-900" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-blue-950 mb-1">Phone</h3>
-                    <p className="text-gray-700">+91 XXXXX XXXXX</p>
-                    <p className="text-gray-700">+91 XXXXX XXXXX</p>
-                  </div>
-                </div>
               </div>
 
               {/* Map */}
