@@ -1,34 +1,34 @@
 import { Calendar, Clock, MapPin } from "lucide-react"
 
-const upcomingEvents = [
-  {
-    id: 1,
-    title: "Biophysics Workshop 2025",
-    date: "May 15, 2025",
-    time: "10:00 AM - 4:00 PM",
-    location: "Physics Department, NITW",
-    description: "Join us for a comprehensive workshop on the latest techniques in biophysical research.",
-    image: "/placeholder.svg?height=300&width=500&text=Workshop",
-  },
-  {
-    id: 2,
-    title: "Guest Lecture: Molecular Dynamics",
-    date: "June 5, 2025",
-    time: "2:00 PM - 4:00 PM",
-    location: "Seminar Hall, NITW",
-    description: "A guest lecture by Dr. Robert Johnson on molecular dynamics simulations in biological systems.",
-    image: "/placeholder.svg?height=300&width=500&text=Lecture",
-  },
-  {
-    id: 3,
-    title: "Annual Biophysics Conference",
-    date: "July 10-12, 2025",
-    time: "9:00 AM - 5:00 PM",
-    location: "Conference Center, NITW",
-    description: "Our annual conference bringing together researchers, students, and faculty from across the country.",
-    image: "/placeholder.svg?height=300&width=500&text=Conference",
-  },
-]
+// const upcomingEvents = [
+//   {
+//     id: 1,
+//     title: "Biophysics Workshop 2025",
+//     date: "May 15, 2025",
+//     time: "10:00 AM - 4:00 PM",
+//     location: "Physics Department, NITW",
+//     description: "Join us for a comprehensive workshop on the latest techniques in biophysical research.",
+//     image: "/placeholder.svg?height=300&width=500&text=Workshop",
+//   },
+//   {
+//     id: 2,
+//     title: "Guest Lecture: Molecular Dynamics",
+//     date: "June 5, 2025",
+//     time: "2:00 PM - 4:00 PM",
+//     location: "Seminar Hall, NITW",
+//     description: "A guest lecture by Dr. Robert Johnson on molecular dynamics simulations in biological systems.",
+//     image: "/placeholder.svg?height=300&width=500&text=Lecture",
+//   },
+//   {
+//     id: 3,
+//     title: "Annual Biophysics Conference",
+//     date: "July 10-12, 2025",
+//     time: "9:00 AM - 5:00 PM",
+//     location: "Conference Center, NITW",
+//     description: "Our annual conference bringing together researchers, students, and faculty from across the country.",
+//     image: "/placeholder.svg?height=300&width=500&text=Conference",
+//   },
+// ]
 
 const pastEvents = [
   {
@@ -75,7 +75,7 @@ export default function Events() {
       </div>
 
       {/* Upcoming Events */}
-      <section className="py-16 md:py-24">
+      {/* <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-blue-950 mb-6">Upcoming Events</h2>
           <div className="w-20 h-1 bg-blue-900 mb-12"></div>
@@ -132,7 +132,7 @@ export default function Events() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Past Events */}
       <section className="py-16 md:py-24 bg-gray-50">
