@@ -46,9 +46,9 @@ export default function Blog() {
 
       {/* Blog Post */}
       {contents.slice().reverse().map(content => (
+      <div key={content.id}>
       <section className="mb-6 shadow-md hover:shadow-lg transition-shadow max-w-6xl mx-auto mt-20">
         <div className="p-6 sm:p-8">
-            <div key={content.id}>
                 <h2 className="text-2xl font-semibold mb-2">{content.title}</h2>
                 <div className="flex items-center text-sm text-gray-500 mb-4">
                     <User className="w-4 h-4 mr-1" /> <span className="mr-4">{content.name}</span>
@@ -58,8 +58,8 @@ export default function Blog() {
                     {content.post}
                 </p>
             </div>
-        </div>
-      </section>  
+      </section>
+      </div>  
     ))}
 
     </div>
