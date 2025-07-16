@@ -39,7 +39,7 @@ const contents = [
       image1: "/images/blog/Blog-3-1.jpeg",
       caption1: "BC Open Textbooks",
       image2: "/images/blog/Blog-3-2.jpeg",
-      caption2: "",
+      caption2: "Wikipedia",
       image3: "/images/blog/Blog-3-3.jpeg",
       caption3: "Lab Tests Guide",
     },
