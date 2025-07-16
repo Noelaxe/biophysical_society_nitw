@@ -16,7 +16,7 @@ const teamMembers = [
     name: "Smridhi Bhadra",
     role: "President",
     image: "/images/members_photos/Smridhi_Bhadra.jpeg",
-    text: "3rd Year, Btech. Biotechnology, Department of Biotechnology, NITW",
+    text: "4th Year, Btech. Biotechnology, Department of Biotechnology, NITW",
     email: "mailto:sb22btb0a04@student.nitw.ac.in",
     linkedin: "https://www.linkedin.com/in/smridhi-bhadra-2020/"
   },
@@ -25,7 +25,7 @@ const teamMembers = [
     name: "Parnasri Ghosh",
     role: "Vice President",
     image: "/images/members_photos/Parnasri_Ghosh.jpeg",
-    text: "3rd Year, Btech. Biotechnology, Department of Biotechnology, NITW",
+    text: "4th Year, Btech. Biotechnology, Department of Biotechnology, NITW",
     email: "mailto:pg22btb0a39@student.nitw.ac.in",
     linkedin: "https://www.linkedin.com/in/parnasri-ghosh-930810269/"
   },
@@ -34,7 +34,7 @@ const teamMembers = [
     name: "Aman Inamdar",
     role: "Secretary",
     image: "/images/members_photos/Anam_Imandar.jpeg",
-    text: "3rd Year, Btech. Biotechnology, Department of Biotechnology, NITW",
+    text: "4th Year, Btech. Biotechnology, Department of Biotechnology, NITW",
     email: "mailto:aa22btb0a07@student.nitw.ac.in",
     linkedin: "https://www.linkedin.com/in/aman-inamdar-6a94aa256/"
   },
@@ -43,7 +43,7 @@ const teamMembers = [
     name: "Sanskriti Kadam",
     role: "Treasurer",
     image: "/images/members_photos/Sanskriti_Kadam.jpeg",
-    text: "3rd Year, Btech. Biotechnology, Department of Biotechnology, NITW",
+    text: "4th Year, Btech. Biotechnology, Department of Biotechnology, NITW",
     email: "mailto:sa22btb0a05@student.nitw.ac.in",
     linkedin: "https://www.linkedin.com/in/sanskriti-kadam-31620026a/"
   },

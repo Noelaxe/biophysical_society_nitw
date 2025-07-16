@@ -39,7 +39,7 @@ const contents = [
       image1: "/images/blog/Blog-3-1.jpeg",
       caption1: "BC Open Textbooks",
       image2: "/images/blog/Blog-3-2.jpeg",
-      caption2: "",
+      caption2: "Wikipedia",
       image3: "/images/blog/Blog-3-3.jpeg",
       caption3: "Lab Tests Guide",
     },
@@ -55,6 +55,19 @@ const contents = [
       caption2: "Griffiths et al., 2004",
       image3: "/images/blog/Blog-4-3.jpeg",
       caption3: "GeeksforGeeks",
+    },
+    {
+      id: 5,
+      name: "Nurul Hayi",
+      title: "MRI (Magnetic Resonance Imaging): A Biophysical Marvel",
+      date: "July 16, 2025",
+      post: `"Magnetic Resonance Imaging (MRI) is a sophisticated and non-invasive imaging technique that draws from the principles of quantum mechanics, nuclear magnetic resonance (NMR), and computational physics to visualize internal structures of the human body without using ionizing radiation. \n\n MRI involves the following physics: \n\n 1. Proton Spin and Magnetic Moments : At the core of MRI lies the hydrogen nucleus, which is found in abundance in biological tissues because of water and fat content. These protons have an intrinsic property called "spin" that gives rise to a magnetic moment, essentially turning each hydrogen nucleus into a tiny bar magnet. In their natural state, these magnetic moments point in random directions and cancel each other out. \n\n 2. The Static Magnetic Field (B₀) : When a patient enters the MRI scanner, they are exposed to a strong static magnetic field, commonly ranging from 1.5 to 3 Tesla but sometimes reaching up to 7 Tesla in research settings. This magnetic field causes a portion of the hydrogen nuclei to align either parallel (low energy) or antiparallel (high energy) to the field. This alignment creates a net longitudinal magnetization vector in the direction of the main magnetic field, B₀. \n\n 3. Radiofrequency (RF) Excitation Pulse :An RF pulse is then applied at the Larmor frequency (ω₀ = γB₀), where γ is the gyromagnetic ratio for hydrogen (approximately 42.58 MHz per Tesla). This RF pulse tips the net magnetization vector away from the z-axis into the transverse plane.This temporarily excites the protons by flipping their orientation into a higher energy state. \n\n 4. Relaxation: T1 and T2: Once the RF pulse stops, the protons start to return to equilibrium. T1 Relaxation (Longitudinal or Spin Lattice) refers to the time it takes for protons to realign with B₀. This helps differentiate tissues such as fat (which has a short T1) and fluids (which have a long T1). T2 Relaxation (Transverse or Spin Spin) is the time it takes for protons to lose coherence in the transverse plane due to interactions with neighboring spins. Water typically has a long T2, whereas muscle has a shorter one. \n\n 5. Signal Detection and Spatial Encoding: As the protons relax, they emit tiny radiofrequency signals. These signals are detected by receiver coils placed around the body.To determine the spatial location of these signals and form an image, gradient magnetic fields are applied in three directions: x, y, and z. These gradients cause spatial variation in the Larmor frequency, allowing for frequency encoding, phase encoding, slice selection. The scanner digitizes these signals and processes them using Fourier Transform techniques to reconstruct 2-D or 3-D anatomical images. \n\n Applications of MRI in Medicine \n\n MRI is extremely versatile and widely used in clinical and research settings: \n\n 1. Neurology-Detecting brain tumors, stroke, and multiple sclerosis, Functional MRI (fMRI) to map brain activity, Diffusion Tensor Imaging (DTI) to study white matter tracts \n\n 2. Musculoskeletal: Diagnosing joint injuries, ligament tears, and bone marrow disorders, Visualizing cartilage, muscle, and tendons in great detail \n\n 3. Cardiology: Imaging cardiac walls and detecting heart attacks or congenital defects, MRI angiography (MRA) for visualizing blood vessels \n\n 4. Oncology: Identifying and staging cancers such as prostate, liver, and breast, Monitoring the response of tumors to treatment \n\n Advantages of MRI \n\n 1. Does not use ionizing radiation, unlike X-rays or CT scans \n\n 2. Offers superior contrast for soft tissues \n\n 3. Provides multiple types of image contrasts  \n\n 4. Delivers high spatial and temporal resolution \n\n However, MRI is more expensive than other imaging methods, takes longer to perform, and may not be suitable for individuals with incompatible metallic implants. \n\n MRI is a remarkable combination of physics in medicine that uses behavior of protons into life-saving medical insights."`,
+      image1: "/images/blog/Blog-5-1.jpeg",
+      caption1: "Technology Networks",
+      image2: "/images/blog/Blog-5-2.jpeg",
+      caption2: "National Herald",
+      image3: "/images/blog/Blog-5-3.jpeg",
+      caption3: "MPO",
     },
 ]
 
