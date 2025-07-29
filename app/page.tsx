@@ -140,57 +140,106 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Featured Events Section */}
-      {/* <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-blue-950 mb-4">Upcoming Events</h2>
+      {/* Announcements Section */}
+       <section className="py-20 bg-gray-50">
+          <div className="max-h-[600px] overflow-y-auto pr-2 bg-white p-8 rounded-xl shadow-lg mx-auto container">
+            <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-blue-950 mb-4">Announcements</h2>
             <div className="w-20 h-1 bg-blue-900 mx-auto"></div>
           </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[1, 2, 3].map((item) => (
-              <div
-                key={item}
-                className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 group"
-              >
-                <div className="h-48 bg-gray-200 relative">
-                  <img
-                    src={`/placeholder.svg?height=300&width=500&text=Event+${item}`}
-                    alt={`Event ${item}`}
-                    className="w-full h-full object-cover"
-                  />
-                  <div className="absolute top-4 left-4 bg-blue-900 text-white px-3 py-1 rounded-full text-sm font-medium">
-                    May {10 + item}, 2025
+              <ul className="space-y-4 text-left mx-auto list-disc">
+                <li className="flex items-start">
+                  <div>
+                    <div className="flex items-center text-sm text-gray-500 ml-20">
+                      <span>July 29, 2025</span>
+                    </div>
+                    <h3 className="text-xl font-bold text-blue-950 ml-20">BPS Bulletin for the month of July/August, 2025 has been released</h3>
+                    <p className="text-gray-600 text-md mb-1.5 ml-20 mr-20 mb-5">
+                      BPS Bulletin, The Newsletter for the Biophysical Society has been released for the month of July/August, 2025. <a href="/BPS_Bulletin/publication_julyaugust.pdf" target="_blank">Click here to download.</a>
+                    </p>
+                    
                   </div>
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold text-blue-950 mb-2 group-hover:text-blue-800 transition-colors">
-                    Biophysics Workshop {item}
-                  </h3>
-                  <p className="text-gray-600 mb-4">
-                    Join us for an exciting workshop on the latest advancements in biophysical research.
-                  </p>
-                  <Link
-                    href="/events"
-                    className="text-blue-900 font-medium flex items-center hover:text-blue-700 transition-colors"
-                  >
-                    Learn more <ArrowRight className="ml-1 h-4 w-4" />
-                  </Link>
-                </div>
-              </div>
-            ))}
-          </div>
+                </li>
+                <li className="flex items-start">
+                  <div>
+                    <div className="flex items-center text-sm text-gray-500 ml-20">
+                      <span>June 2, 2025</span>
+                    </div>
+                    <h3 className="text-xl font-bold text-blue-950 ml-20">BPS Bulletin for the month of June, 2025 has been released</h3>
+                    <p className="text-gray-600 text-md mb-1.5 ml-20 mr-20 mb-5">
+                      BPS Bulletin, The Newsletter for the Biophysical Society has been released for the month of June, 2025. <a href="/BPS_Bulletin/publication_june.pdf" target="_blank">Click here to download.</a>
+                    </p>
+                    
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <div>
+                    <div className="flex items-center text-sm text-gray-500 ml-20">
+                      <span>May 3, 2025</span>
+                    </div>
+                    <h3 className="text-xl font-bold text-blue-950 ml-20">BPS Bulletin for the month of May, 2025 has been released</h3>
+                    <p className="text-gray-600 text-md mb-1.5 ml-20 mr-20 mb-5">
+                      BPS Bulletin, The Newsletter for the Biophysical Society has been released for the month of May, 2025. <a href="/BPS_Bulletin/publication_may.pdf" target="_blank">Click here to download.</a>
+                    </p>
+                    
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <div>
+                    <div className="flex items-center text-sm text-gray-500 ml-20">
+                      <span>April 2, 2025</span>
+                    </div>
+                    <h3 className="text-xl font-bold text-blue-950 ml-20">BPS Bulletin for the month of April, 2025 has been released</h3>
+                    <p className="text-gray-600 text-md mb-1.5 ml-20 mr-20 mb-5">
+                      BPS Bulletin, The Newsletter for the Biophysical Society has been released for the month of April, 2025. <a href="/BPS_Bulletin/publication_april.pdf" target="_blank">Click here to download.</a>
+                    </p>
+                    
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <div>
+                    <div className="flex items-center text-sm text-gray-500 ml-20">
+                      <span>March 4, 2025</span>
+                    </div>
+                    <h3 className="text-xl font-bold text-blue-950 ml-20">BPS Bulletin for the month of March, 2025 has been released</h3>
+                    <p className="text-gray-600 text-md mb-1.5 ml-20 mr-20 mb-5">
+                      BPS Bulletin, The Newsletter for the Biophysical Society has been released for the month of March, 2025. <a href="/BPS_Bulletin/publication_march.pdf" target="_blank">Click here to download.</a>
+                    </p>
+                    
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <div>
+                    <div className="flex items-center text-sm text-gray-500 ml-20">
+                      <span>February 1, 2025</span>
+                    </div>
+                    <h3 className="text-xl font-bold text-blue-950 ml-20">BPS Bulletin for the month of February, 2025 has been released</h3>
+                    <p className="text-gray-600 text-md mb-1.5 ml-20 mr-20 mb-5">
+                      BPS Bulletin, The Newsletter for the Biophysical Society has been released for the month of February, 2025. <a href="/BPS_Bulletin/publication_february.pdf" target="_blank">Click here to download.</a>
+                    </p>
+                    
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <div>
+                    <div className="flex items-center text-sm text-gray-500 ml-20">
+                      <span>December 3, 2024</span>
+                    </div>
+                    <h3 className="text-xl font-bold text-blue-950 ml-20">BPS Bulletin for the month of December, 2024 has been released</h3>
+                    <p className="text-gray-600 text-md mb-1.5 ml-20 mr-20 mb-5">
+                      BPS Bulletin, The Newsletter for the Biophysical Society has been released for the month of December, 2024. <a href="/BPS_Bulletin/publication_december.pdf" target="_blank">Click here to download.</a>
+                    </p>
+                    
+                  </div>
+                </li>
+                
+                
+                
+              </ul>
+            </div>
 
-          <div className="text-center mt-12">
-            <Link href="/events">
-              <Button variant="outline" className="border-blue-900 text-blue-900 hover:bg-blue-900 hover:text-white">
-                View All Events
-              </Button>
-            </Link>
-          </div>
-        </div>
-      </section> */}
+      
+      </section> 
     </div>
   )
 }
