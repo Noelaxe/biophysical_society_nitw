@@ -23,15 +23,15 @@ export default function Footer() {
               </div>
             </div>
             <div className="flex space-x-4">
-              <Link href="#" className="text-white hover:text-blue-300 transition-colors">
+              {/* <Link href="#" className="text-white hover:text-blue-300 transition-colors">
                 <Facebook size={20} />
                 <span className="sr-only">Facebook</span>
               </Link>
               <Link href="#" className="text-white hover:text-blue-300 transition-colors">
                 <Twitter size={20} />
                 <span className="sr-only">Twitter</span>
-              </Link>
-              <Link href="#" className="text-white hover:text-blue-300 transition-colors">
+              </Link> */}
+              <Link href="https://www.instagram.com/bps.nitw" target="_blank" className="text-white hover:text-blue-300 transition-colors">
                 <Instagram size={20} />
                 <span className="sr-only">Instagram</span>
               </Link>
@@ -86,10 +86,10 @@ export default function Footer() {
                 <MapPin className="mr-2 h-5 w-5 text-blue-300 flex-shrink-0 mt-0.5" />
                 <span className="text-gray-300">National Institute of Technology, Warangal, Telangana, India</span>
               </li>
-              <li className="flex items-center">
+              {/* <li className="flex items-center">
                 <Mail className="mr-2 h-5 w-5 text-blue-300 flex-shrink-0" />
                 <span className="text-gray-300">biophysics@nitw.ac.in</span>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

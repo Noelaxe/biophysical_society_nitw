@@ -150,11 +150,11 @@ export default function Home() {
               <ul className="space-y-4 text-left mx-auto list-disc">
                 <li className="flex items-start">
                   <div>
-                    <div className="flex items-center text-sm text-gray-500 ml-20">
+                    <div className="flex items-center text-sm text-gray-500 md:ml-20">
                       <span>July 29, 2025</span>
                     </div>
-                    <h3 className="text-xl font-bold text-blue-950 ml-20">BPS Bulletin for the month of July/August, 2025 has been released</h3>
-                    <p className="text-gray-600 text-md mb-1.5 ml-20 mr-20 mb-5">
+                    <h3 className="text-xl font-bold text-blue-950 md:ml-20">BPS Bulletin for the month of July/August, 2025 has been released</h3>
+                    <p className="text-gray-600 text-md mb-1.5 md:ml-20 md:mr-20 mb-5">
                       BPS Bulletin, The Newsletter for the Biophysical Society has been released for the month of July/August, 2025. <a href="/BPS_Bulletin/publication_julyaugust.pdf" target="_blank">Click here to download.</a>
                     </p>
                     
@@ -162,11 +162,11 @@ export default function Home() {
                 </li>
                 <li className="flex items-start">
                   <div>
-                    <div className="flex items-center text-sm text-gray-500 ml-20">
+                    <div className="flex items-center text-sm text-gray-500 md:ml-20">
                       <span>June 2, 2025</span>
                     </div>
-                    <h3 className="text-xl font-bold text-blue-950 ml-20">BPS Bulletin for the month of June, 2025 has been released</h3>
-                    <p className="text-gray-600 text-md mb-1.5 ml-20 mr-20 mb-5">
+                    <h3 className="text-xl font-bold text-blue-950 md:ml-20">BPS Bulletin for the month of June, 2025 has been released</h3>
+                    <p className="text-gray-600 text-md mb-1.5 md:ml-20 md:mr-20 mb-5">
                       BPS Bulletin, The Newsletter for the Biophysical Society has been released for the month of June, 2025. <a href="/BPS_Bulletin/publication_june.pdf" target="_blank">Click here to download.</a>
                     </p>
                     
@@ -174,11 +174,11 @@ export default function Home() {
                 </li>
                 <li className="flex items-start">
                   <div>
-                    <div className="flex items-center text-sm text-gray-500 ml-20">
+                    <div className="flex items-center text-sm text-gray-500 md:ml-20">
                       <span>May 3, 2025</span>
                     </div>
-                    <h3 className="text-xl font-bold text-blue-950 ml-20">BPS Bulletin for the month of May, 2025 has been released</h3>
-                    <p className="text-gray-600 text-md mb-1.5 ml-20 mr-20 mb-5">
+                    <h3 className="text-xl font-bold text-blue-950 md:ml-20">BPS Bulletin for the month of May, 2025 has been released</h3>
+                    <p className="text-gray-600 text-md mb-1.5 md:ml-20 md:mr-20 mb-5">
                       BPS Bulletin, The Newsletter for the Biophysical Society has been released for the month of May, 2025. <a href="/BPS_Bulletin/publication_may.pdf" target="_blank">Click here to download.</a>
                     </p>
                     
@@ -186,11 +186,11 @@ export default function Home() {
                 </li>
                 <li className="flex items-start">
                   <div>
-                    <div className="flex items-center text-sm text-gray-500 ml-20">
+                    <div className="flex items-center text-sm text-gray-500 md:ml-20">
                       <span>April 2, 2025</span>
                     </div>
-                    <h3 className="text-xl font-bold text-blue-950 ml-20">BPS Bulletin for the month of April, 2025 has been released</h3>
-                    <p className="text-gray-600 text-md mb-1.5 ml-20 mr-20 mb-5">
+                    <h3 className="text-xl font-bold text-blue-950 md:ml-20">BPS Bulletin for the month of April, 2025 has been released</h3>
+                    <p className="text-gray-600 text-md mb-1.5 md:ml-20 md:mr-20 mb-5">
                       BPS Bulletin, The Newsletter for the Biophysical Society has been released for the month of April, 2025. <a href="/BPS_Bulletin/publication_april.pdf" target="_blank">Click here to download.</a>
                     </p>
                     
@@ -198,11 +198,11 @@ export default function Home() {
                 </li>
                 <li className="flex items-start">
                   <div>
-                    <div className="flex items-center text-sm text-gray-500 ml-20">
+                    <div className="flex items-center text-sm text-gray-500 md:ml-20">
                       <span>March 4, 2025</span>
                     </div>
-                    <h3 className="text-xl font-bold text-blue-950 ml-20">BPS Bulletin for the month of March, 2025 has been released</h3>
-                    <p className="text-gray-600 text-md mb-1.5 ml-20 mr-20 mb-5">
+                    <h3 className="text-xl font-bold text-blue-950 md:ml-20">BPS Bulletin for the month of March, 2025 has been released</h3>
+                    <p className="text-gray-600 text-md mb-1.5 md:ml-20 md:mr-20 mb-5">
                       BPS Bulletin, The Newsletter for the Biophysical Society has been released for the month of March, 2025. <a href="/BPS_Bulletin/publication_march.pdf" target="_blank">Click here to download.</a>
                     </p>
                     
@@ -210,11 +210,11 @@ export default function Home() {
                 </li>
                 <li className="flex items-start">
                   <div>
-                    <div className="flex items-center text-sm text-gray-500 ml-20">
+                    <div className="flex items-center text-sm text-gray-500 md:ml-20">
                       <span>February 1, 2025</span>
                     </div>
-                    <h3 className="text-xl font-bold text-blue-950 ml-20">BPS Bulletin for the month of February, 2025 has been released</h3>
-                    <p className="text-gray-600 text-md mb-1.5 ml-20 mr-20 mb-5">
+                    <h3 className="text-xl font-bold text-blue-950 md:ml-20">BPS Bulletin for the month of February, 2025 has been released</h3>
+                    <p className="text-gray-600 text-md mb-1.5 md:ml-20 md:mr-20 mb-5">
                       BPS Bulletin, The Newsletter for the Biophysical Society has been released for the month of February, 2025. <a href="/BPS_Bulletin/publication_february.pdf" target="_blank">Click here to download.</a>
                     </p>
                     
@@ -222,11 +222,11 @@ export default function Home() {
                 </li>
                 <li className="flex items-start">
                   <div>
-                    <div className="flex items-center text-sm text-gray-500 ml-20">
+                    <div className="flex items-center text-sm text-gray-500 md:ml-20">
                       <span>December 3, 2024</span>
                     </div>
-                    <h3 className="text-xl font-bold text-blue-950 ml-20">BPS Bulletin for the month of December, 2024 has been released</h3>
-                    <p className="text-gray-600 text-md mb-1.5 ml-20 mr-20 mb-5">
+                    <h3 className="text-xl font-bold text-blue-950 md:ml-20">BPS Bulletin for the month of December, 2024 has been released</h3>
+                    <p className="text-gray-600 text-md mb-1.5 md:ml-20 md:mr-20 mb-5">
                       BPS Bulletin, The Newsletter for the Biophysical Society has been released for the month of December, 2024. <a href="/BPS_Bulletin/publication_december.pdf" target="_blank">Click here to download.</a>
                     </p>
                     
