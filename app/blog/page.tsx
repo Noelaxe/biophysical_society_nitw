@@ -2,7 +2,6 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Calendar, User } from "lucide-react";
 import Image from "next/image"
 
-// Trial - Akhil 
 
 const contents = [
     {

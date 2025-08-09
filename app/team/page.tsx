@@ -47,6 +47,132 @@ const teamMembers = [
     email: "mailto:sa22btb0a05@student.nitw.ac.in",
     linkedin: "https://www.linkedin.com/in/sanskriti-kadam-31620026a/"
   },
+  {
+    id: 6,
+    name: "Akhil Mathew Biju",
+    role: "Executive Member",
+    image: "/images/members_photos/Akhil_Mathew_Biju.jpeg",
+    text: "3rd Year, Btech. Biotechnology, Department of Biotechnology, NITW",
+    email: "",
+    linkedin: ""
+  },
+  {
+    id: 7,
+    name: "Aadvik Bhardwaj",
+    role: "Executive Member",
+    image: "/images/members_photos/Aadvik_Bhardwaj.jpeg",
+    text: "3rd Year, Btech. Biotechnology, Department of Biotechnology, NITW",
+    email: "",
+    linkedin: ""
+  },
+  {
+    id: 8,
+    name: "Vahini Yanduri",
+    role: "Executive Member",
+    image: "/images/members_photos/Vahini_Yanduri.jpeg",
+    text: "3rd Year, Btech. Biotechnology, Department of Biotechnology, NITW",
+    email: "",
+    linkedin: ""
+  },
+  {
+    id: 9,
+    name: "Anoushka",
+    role: "Executive Member",
+    image: "/images/members_photos/Anoushka.jpeg",
+    text: "3rd Year, Btech. Biotechnology, Department of Biotechnology, NITW",
+    email: "",
+    linkedin: ""
+  },
+  {
+    id: 10,
+    name: "Akshaya Vasudevan",
+    role: "Executive Member",
+    image: "/images/members_photos/Akshaya_Vasudevan.jpeg",
+    text: "3rd Year, Btech. Biotechnology, Department of Biotechnology, NITW",
+    email: "",
+    linkedin: ""
+  },
+  {
+    id: 11,
+    name: "Gokul",
+    role: "Executive Member",
+    image: "/images/members_photos/Gokul.jpeg",
+    text: "3rd Year, Btech. Electrical and Electronics Engineering, Department of Electrical and Electronics Engineering, NITW",
+    email: "",
+    linkedin: 
+  },
+ {
+    id: 12,
+    name: "Noel S George",
+    role: "Executive Member",
+    image: "/images/members_photos/Noel_S_George.jpeg",
+    text: "3rd Year, Integrated MSc. Chemistry, Department of Chemistry, NITW",
+    email: "",
+    linkedin: 
+  },
+  {
+    id: 13,
+    name: "Yash Thakre",
+    role: "Executive Member",
+    image: "/images/members_photos/Yash_Thakre.jpeg",
+    text: "3rd Year, Btech. Biotechnology, Department of Biotechnology, NITW",
+    email: "",
+    linkedin: 
+  },
+  {
+    id: 14,
+    name: "Rishi Chaubey",
+    role: "Executive Member",
+    image: "/images/members_photos/Rishi_Chaubey.jpeg",
+    text: "3rd Year, Btech. Biotechnology, Department of Biotechnology, NITW",
+    email: "",
+    linkedin: 
+  },
+  {
+    id: 15,
+    name: "Muhammad Nurul",
+    role: "Executive Member",
+    image: "/images/members_photos/Muhammad_Nurul.jpeg",
+    text: "2nd Year, BSc Bed Mathematics, Department of Mathematics, NITW",
+    email: "",
+    linkedin: 
+  },
+  {
+    id: 16,
+    name: "Srinithya Rao Bogelly",
+    role: "Executive Member",
+    image: "/images/members_photos/Srinithya_Rao_Bogelly.jpeg",
+    text: "2nd Year, Btech. Biotechnology, Department of Biotechnology, NITW",
+    email: "",
+    linkedin: 
+  },
+  {
+    id: 17,
+    name: "PRANAV",
+    role: "Executive Member",
+    image: "/images/members_photos/PRANAV.jpeg",
+    text: "2nd Year, Btech. Biotechnology, Department of Biotechnology, NITW",
+    email: "",
+    linkedin: 
+  },
+  {
+    id: 18,
+    name: "Md Altamash Alam",
+    role: "Executive Member",
+    image: "/images/members_photos/Md_Altamash_Alam.jpeg",
+    text: "2nd Year, Btech. Biotechnology, Department of Biotechnology, NITW",
+    email: "",
+    linkedin: 
+  },
+  {
+    id: 19,
+    name: "Malavika",
+    role: "Executive Member",
+    image: "/images/members_photos/Malavika.jpeg",
+    text: "2nd Year, Btech. Biotechnology, Department of Biotechnology, NITW",
+    email: "",
+    linkedin: 
+  },  
 ]
 
 export default function Team() {
