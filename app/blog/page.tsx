@@ -69,6 +69,19 @@ const contents = [
       image3: "/images/blog/Blog-5-3.jpeg",
       caption3: "MPO",
     },
+    {
+      id: 6,
+      name: "Nurul Hayi",
+      title: "The Dance of Freedom: A Biophysical Perspective on Independence Day",
+      date: "August 15, 2025",
+      post: `"Happy Independence Day! As India celebrates its 79th year of freedom, we see that the principles governing life at the molecular level ,overcoming barriers, organized assembly, and coordinated action are the same principles that build a free nation. \n\n Overcoming Barriers: The Cell Membrane and the Freedom Struggle \n\n A cell's membrane is a selective barrier overcome by transport proteins using energy (ATP) to thrive. In the nation's struggle for independence, oppressive forces were the barrier. Freedom fighters acted as "transport proteins," creating channels of communication and mobilizing resources to breach the barrier. A nation, like a cell, expends immense energy and sacrifice to achieve and maintain sovereignty. \n\n Unity in Diversity: From Protein Complexes to a Nation's Strength \n\n In biophysics, diverse proteins assemble into complexes to perform sophisticated tasks that single units cannot. This is a powerful metaphor for India, a mosaic of different cultures and languages. Like protein subunits, each community is unique, but the nation's true power emerges when these diverse elements collaborate towards a common goal. Our shared history and constitutional values are the "bonds" that give this national complex its stability and function. \n\n Illuminating the Path Forward: Biophysics and India's Future \n\n Biophysical research uses techniques like X-ray crystallography to illuminate the hidden machinery of life, paving the way for discoveries. As India strides into the future, facing challenges in healthcare and food security, the principles and tools of biophysics will be crucial. By understanding the fundamental physical laws of life, we can design better drugs and develop more resilient crops. Our scientific quest for knowledge is intrinsically linked to our national quest for progress. \n\n On this special day, let's celebrate the freedom to ask bold questions and pursue the truth, whether in a laboratory or in the life of our nation. \n Wishing everyone a very Happy Independence Day! \n Jai Hind!"`,
+      image1: "",
+      caption1: "null",
+      image2: "",
+      caption2: "null",
+      image3: "",
+      caption3: "null",
+    },
 ]
 
 export default function Blog() {
@@ -100,11 +113,12 @@ export default function Blog() {
                 <div className="flex flex-col md:flex-row justify-center gap-8 mt-8">
                   {/* Image + Caption */}
                   {[[content.image1, content.caption1], [content.image2, content.caption2], [content.image3, content.caption3]].map(([img, cap], index) => (
-                    <div key={index} className="w-full md:w-1/3">
+                    <div key={index} className="w-full md:w-1/3" style={{display:(cap === "null" ? "none" : "")}}>
                       <div className="relative w-full h-[250px] md:h-[350px] rounded-xl shadow-xl overflow-hidden">
                         <Image
                           src={img}
                           alt={`Blog image ${index + 1}`}
+                          
                           fill
                           className="object-contain"
                         />
