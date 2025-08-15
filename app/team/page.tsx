@@ -54,7 +54,7 @@ const teamMembers = [
     image: "/images/members_photos/Akhil.jpeg",
     text: "3rd Year, Btech. Biotechnology, Department of Biotechnology, NITW",
     email: "mailto:am23btb0a01@student.nitw.ac.in",
-    linkedin: ""
+    linkedin: "https://www.linkedin.com/in/akhil-biju-6bba4633b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   },
   {
     id: 7,
@@ -166,7 +166,7 @@ const teamMembers = [
   },
   {
     id: 19,
-    name: "Malavika Sunitha Renjith",
+    name: "Malavika Sunita Renjith",
     role: "Executive Member",
     image: "/images/members_photos/Malavika.jpeg",
     text: "2nd Year, Btech. Biotechnology, Department of Biotechnology, NITW",

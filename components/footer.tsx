@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Facebook, Twitter, Instagram, Mail, MapPin, Phone } from "lucide-react"
+import { Facebook, Twitter, Instagram, Mail, MapPin, Phone, Linkedin } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -31,6 +31,10 @@ export default function Footer() {
                 <Twitter size={20} />
                 <span className="sr-only">Twitter</span>
               </Link> */}
+              <Link href="https://www.linkedin.com/company/biophysical-society-nit-warangal" target="_blank" className="text-white hover:text-blue-300 transition-colors">
+                <Linkedin size={20} />
+                <span className="sr-only">LinkedIn</span>
+              </Link>
               <Link href="https://www.instagram.com/bps.nitw" target="_blank" className="text-white hover:text-blue-300 transition-colors">
                 <Instagram size={20} />
                 <span className="sr-only">Instagram</span>
