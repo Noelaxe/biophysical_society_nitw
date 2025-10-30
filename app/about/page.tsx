@@ -55,7 +55,7 @@ export default function About() {
 
             <div className="relative h-[400px] md:h-[500px] rounded-xl overflow-hidden shadow-xl">
               <Image
-                src="/placeholder.svg?height=500&width=600&text=Chapter+History"
+                src="/images/About/Image1.jpeg"
                 alt="Biophysical Society Student Chapter History"
                 fill
                 className="object-cover"

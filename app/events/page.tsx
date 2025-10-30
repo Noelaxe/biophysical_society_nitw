@@ -33,31 +33,17 @@ import { Calendar, Clock, MapPin } from "lucide-react"
 const pastEvents = [
   {
     id: 4,
-    title: "Research Symposium",
-    date: "March 20, 2025",
-    description: "A symposium showcasing student research projects in biophysics.",
-    image: "/placeholder.svg?height=300&width=500&text=Symposium",
+    title: "Inaugration Ceremony",
+    date: "October 31, 2025",
+    description: "The Inaugral Ceremony for the Biophysical Society Student Chapter of NITW",
+    image: "/images/Events/Inaugration.jpeg",
   },
   {
     id: 5,
-    title: "Career Panel: Biophysics in Industry",
-    date: "February 10, 2025",
-    description: "A panel discussion on career opportunities in biophysics outside academia.",
+    title: "Biophysics Workshop",
+    date: "November 15, 2025",
+    description: "A comprehensive workshop on Protein Folding and Structure for Grade 10-12 students including a comprehensive overview of PyMol",
     image: "/placeholder.svg?height=300&width=500&text=Career+Panel",
-  },
-  {
-    id: 6,
-    title: "Lab Tour: Advanced Imaging Facility",
-    date: "January 15, 2025",
-    description: "A guided tour of the advanced imaging facility at NITW.",
-    image: "/placeholder.svg?height=300&width=500&text=Lab+Tour",
-  },
-  {
-    id: 7,
-    title: "Workshop: Computational Biophysics",
-    date: "December 5, 2024",
-    description: "A hands-on workshop on computational methods in biophysics.",
-    image: "/placeholder.svg?height=300&width=500&text=Computational",
   },
 ]
 
@@ -137,7 +123,7 @@ export default function Events() {
       {/* Past Events */}
       <section className="py-16 md:py-24 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-blue-950 mb-6">Past Events</h2>
+          <h2 className="text-3xl font-bold text-blue-950 mb-6">Upcoming Events</h2>
           <div className="w-20 h-1 bg-blue-900 mb-12"></div>
 
           <div className="relative">
@@ -178,7 +164,7 @@ export default function Events() {
       </section>
 
       {/* Event Calendar */}
-      <section className="py-16 md:py-24">
+      {/* <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-blue-950 mb-4">Event Calendar</h2>
@@ -218,7 +204,7 @@ export default function Events() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   )
 }
